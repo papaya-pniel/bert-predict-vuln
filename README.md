@@ -1,8 +1,8 @@
 # Intoduction
 
-From the [National Vulnerability Database](https://nvd.nist.gov/vuln), we use the vulnerabilities to fine tune the BERT transformer model in order to predict the severity of vulnerabilities. 
+From the [National Vulnerability Database](https://nvd.nist.gov/vuln), we use these vulnerabilities to fine tune the BERT transformer model in order to predict the severity of vulnerabilities. 
 
-We use the [Simple Transformers](https://github.com/ThilinaRajapakse/simpletransformers) library, which is based on the [Transformers](https://github.com/huggingface/transformers) library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. 
+We use the [Simple Transformers](https://github.com/ThilinaRajapakse/simpletransformers) library, which is based on the [Transformers](https://github.com/huggingface/transformers) library by HuggingFace. Simple Transformers lets you quickly train and evaluate Transformer models. We also have a wrapper to classify the different vulnerabilities.
 
 # Data Feeds
 
