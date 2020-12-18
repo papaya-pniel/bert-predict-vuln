@@ -3,9 +3,8 @@
 
 # In[28]:
 
-
-import pandas as pd
 # load eval_df 
+import pandas as pd
 eval_df = pd.read_pickle("./nvd-eval-df.pkl")
 
 
