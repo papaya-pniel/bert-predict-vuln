@@ -8,6 +8,14 @@ We use the [Simple Transformers](https://github.com/ThilinaRajapakse/simpletrans
 
 You can find the data from the [NVD data-feeds](https://nvd.nist.gov/vuln/data-feeds) in the folder `data/nvdcve-1.1-200{x}.json`. 
 
+# Running the code
+
+For easy I have seperated the code into three seperate files: `prepare_daya.py`, `train_model.py`, and `button_wrapper.py`. To run the code you must run the files is said order. 
+
+The `prepare_daya.py` file preps the data from the files in the `data` folder, by placing all of the data into one pandas dataframe. The code then goes on to prepare the data to train the model with, which can be found in the `train_model.py`. 
+
+The `button_wrapper.py` contains a button widget that randomly selects a vulnerability data entry from the eval_data set to check if the model has correctly predicted the severity of the vulnerability. 
+
 
 # Cleaning the data 
 
