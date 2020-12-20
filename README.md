@@ -10,7 +10,7 @@ You can find the data from the [NVD data-feeds](https://nvd.nist.gov/vuln/data-f
 
 # Running the code
 
-For easy I have seperated the code into three seperate files: `prepare_daya.py`, `train_model.py`, and `button_wrapper.py`. To run the code you must run the files is said order. 
+For easy I have seperated the code into three seperate files: `prepare_daya.py`, `train_model.py`, and `button_wrapper.py`. To run the code you must run the files in said order. 
 
 The `prepare_daya.py` file preps the data from the files in the `data` folder, by placing all of the data into one pandas dataframe. The code then goes on to prepare the data to train the model with, which can be found in the `train_model.py`. 
 
